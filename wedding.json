@@ -1,0 +1,284 @@
+{
+  "menu1": [
+    {
+      "id":1,
+      "name": "Blue Bow 2 Tier Truffle Cake",
+      "description": "Delicious chocolate truffle cake with a beautiful blue bow decoration.",
+      "category": "Wedding",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1.5 kg":26,
+        "2 kg": 32,
+        "3 kg": 38
+      },
+      "sizes": ["1.5 kg", "2 kg", "3 kg"],
+      "image": "images/BlueBow2TierTruffleCake.png"
+    },
+    {
+      "id":2,
+      "name": "Mystical Love Black Forest Cake",
+      "description": "A stunning black forest cake with a mystical love theme.",
+      "category": "Birthday",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1.5 kg":27,
+        "2 kg": 33,
+        "3 kg": 39
+        },
+      "sizes": ["1.5 kg", "2 kg","3 kg"],
+      "image": "images/MysticalLoveBlackForestCake.png"
+    },
+    {
+      "id":3,
+      "name": "Red Roses Dome Pinata Cake",
+      "description": "A delightful hammer cake with a playful twist, hiding sweet surprises beneath a chocolate shell.",
+      "category": "Wedding",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg":10,
+        "1 kg": 15,
+        "1.5 kg": 21,
+        "2 kg": 27
+        },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg", "2 kg"],
+      "image": "images/Red Roses Dome Pinata Cake.png"
+    },
+    {
+      "id":4,
+      "name": "Red Velvet Photo Cake",
+      "description": "A luscious red velvet cake topped with a personalized photo print, perfect for capturing sweet memories.",
+      "category": ["Wedding","Birthday"],
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1.5 kg": 25,
+        "2 kg": 31,
+        "3 kg": 37
+        },
+      "sizes": ["1.5 kg", "2 kg","3 kg"],
+      "image": "images/RedVelvetPhotoCake.png"
+    },
+    {
+      "id":5,
+      "name": "Floral Fantasy Chocolate Cake",
+      "description": "A dreamy chocolate cake adorned with elegant floral designs, bringing a touch of fantasy to every bite.",
+      "category": ["Wedding","Birthday"],
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1.5 kg": 22,
+        "2 kg": 28,
+        "3 kg": 34
+        },
+      "sizes": ["1.5 kg", "2 kg","3 kg"],
+      "image": "images/Floral Fantasy Chocolate Cake.png"
+    },
+    {
+      "id":6,
+      "name": "Heavenly Caramel Walnut Cake ",
+      "description": "A rich and moist caramel cake layered with crunchy walnuts, offering a heavenly blend of flavor and texture.",
+      "category": "Celebration",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1.5 kg": 26,
+        "2 kg": 33,
+        "3 kg": 40
+          },
+      "sizes": ["1.5 kg", "2 kg","3 kg"],
+      "image": "images/Heavenly Caramel Walnut Cake .png"
+    },
+    {
+      "id":7,
+      "name": "Kit Kat Crunch Cream Cake",
+      "description": "A decadent cream cake loaded with crunchy Kit Kat bars, delivering the ultimate chocolate lover’s delight.",
+      "category": ["Wedding","Birthday","Celebration"],
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1.5 kg": 28,
+        "2 kg": 35,
+        "3 kg": 42
+          },
+      "sizes": ["1.5 kg", "2 kg","3 kg"],
+      "image": "images/Kit Kat Crunch Cream Cake.png"
+    },
+    {
+      "id":8,
+        "name": "Truffle Bento Cake",
+        "description": "",
+        "category": "Celebration",
+        "eggOptions": ["Egg", "Eggless"],
+        "priceBySize": {
+          "1.5 kg":30,
+          "2 kg": 38,
+          "3 kg": 45
+        },
+        "sizes": ["1.5 kg", "2 kg","3 kg"],
+        "image": "images/Truffle Bento Cake.png"   
+    },
+    {
+      "id":9,
+      "name": "Chocolate Truffle Cake",
+      "description": "Rich and moist chocolate cake with creamy chocolate ganache.",
+      "category": ["Birthday","Wedding","Congratulations"],
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg": 12,
+        "1 kg": 18,
+        "2 kg": 32
+      },
+      "sizes": ["1/2 kg", "1 kg", "2 kg"],
+      "image": "images/chocolatetrufflescake.png"
+    },
+    {
+      "id":10,
+      "name": "Vanilla Cream Cake",
+      "description": "Classic vanilla sponge with layers of whipped cream and strawberries.",
+      "category": "Birthday",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg": 10,
+        "1 kg": 16,
+        "1.5 kg": 24,
+        "2 kg": 30
+      },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg", "2 kg"],
+      "image": "images/vanillacake1.png"
+    },
+    {
+      "id":11, 
+      "name": "Red Velvet Cake",
+      "description": "Soft red velvet sponge layered with tangy cream cheese frosting.",
+      "category": "Birthday",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg": 14,
+        "1 kg": 22,
+        "1.5 kg": 30,
+        "2 kg": 36
+      },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg", "2 kg"],
+      "image": "images/redvelvet.png"
+    },
+    {
+      "id":12,
+      "name": "Pineapple Cake",
+      "description": "Light sponge cake with pineapple chunks and whipped cream.",
+      "category": "Celebrations",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg": 10,
+        "1 kg": 15,
+        "1.5 kg": 22,
+        "2 kg": 28
+      },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg", "2 kg"],
+      "image": "images/pineapplecake.png"
+    },
+    {
+      "id":13,
+      "name": "Butterscotch Cake",
+      "description": "Delicious butterscotch cake with caramelized nuts and cream.",
+      "category": " Celebrations ",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg": 12,
+        "1 kg": 18,
+        "1.5 kg": 26,
+        "2 kg": 33
+      },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg", "2 kg"],
+      "image": "images/butterscotchcake.png"
+    },
+    {
+      "id":14,
+      "name": "Strawberry Shortcake",
+      "description": "Fluffy sponge cake layered with fresh strawberries and whipped cream.",
+      "category": "Wedding",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg": 13,
+        "1 kg": 19,
+        "1.5 kg": 27,
+        "2 kg": 34
+      },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg", "2 kg"],
+      "image": "images/strawberrycake.png"
+    },
+    {
+      "id":15,
+      "name": "Rasmalai Cake",
+      "description": "Soft sponge cake infused with rasmalai flavors and topped with cream.",
+      "category":"Wedding",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg":14,
+        "1 kg": 20,
+        "1.5 kg": 28,
+        "2 kg": 35
+      },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg", "2 kg"],
+      "image": "images/rasmalaicake.png"
+    },
+    {
+      "id":16,
+      "name":"Best Wishes Pineapple Photo Cake",
+      "description": "A delicious pineapple cake with a photo of your choice.",
+      "category": "Celebrations ",
+      "eggOptions": ["Egg", "Eggless"],
+      "priceBySize": {
+        "1/2 kg": 15,
+        "1 kg":20,
+        "1.5 kg": 30
+      },
+      "sizes": ["1/2 kg", "1 kg", "1.5 kg"],
+      "image": "images/Best Wishes Pineapple Photo Cake.png"
+    },
+    {
+      "id":17,
+      "name":"Delightful Rums & Raisins Dry Cake",
+      "description":"A flavorful dry cake infused with rich rum and studded with juicy raisins for a truly delightful treat.",
+      "category": "Dry & Plum ",
+      "pricebysize":{
+        "1/2 kg":7,
+        "1 kg":14
+      },
+      "sizes":["1/2 kg","1 kg"],
+      "image": "images/Delightful Rums & Raisins Dry Cake.png"
+    },
+    {
+      "id":18,
+      "name":"Delicious Almond Dry Cake ",
+      "description":"A deliciously soft dry cake packed with the nutty goodness of roasted almonds in every bite.",
+      "category": "Dry & Plum",
+      "pricebysize":{
+        "1/2 kg":13,
+        "1 kg":26
+      },
+      "sizes":["1/2 kg","1 kg"],
+      "image": "images/Delicious Almond Dry Cake .png"
+    },
+    {
+      "id":19,
+      "name":"Healthy Whole Wheat Dry Cake ",
+      "description":"A wholesome dry cake made with whole wheat flour, offering a perfect balance of health and taste.",
+      "category": "Dry & Plum",
+      "pricebysize":{
+        "1/2 kg":11,
+        "1 kg":22
+      },
+      "sizes":["1/2 kg","1 kg"],
+      "image": "images/Healthy Whole Wheat Dry Cake .png"
+    },
+    {
+      "id":20,
+      "name":"Loaded Nuts Dry Cake",
+      "description":"A rich and hearty dry cake generously packed with a variety of crunchy, premium nuts in every slice.",
+      "category": "Dry & Plum",
+      "pricebysize":{
+        "1/2 kg":13,
+        "1 kg":26
+      },
+      "sizes":["1/2 kg","1 kg"],
+      "image": "images/Loaded Nuts Dry Cake.png"
+    }
+  ]
+}
+

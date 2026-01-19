@@ -1,0 +1,28 @@
+{
+    "banner":{
+        "subheading":"Your one-stop shop for all things sweet and delicious!"
+    },
+    "highlights":[
+        "100% Eggless Options",
+        "Customizable Cakes and Pastries",
+        "Freshly Baked Daily",
+        "Wide Variety of Flavors"
+    ],
+    "featuredProducts":[
+        {
+            "name":"Chocolate Truffle Cake",
+            "description":"Rich and decadent chocolate cake with a creamy truffle filling.",
+            "image":"images/chocolatetrufflescake.png"
+        },
+        {
+            "name":"Vanilla Cupcakes",
+            "description":"Light and fluffy vanilla cupcakes topped with creamy frosting.",
+            "image":"images/vanillacupcake.png"
+        },
+        {
+            "name":"Red Velvet Cake",
+            "description":"Classic red velvet cake with cream cheese and strawberry frosting.",
+            "image":"images/redvelvet.png"
+        }
+    ]
+}

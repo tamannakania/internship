@@ -1,0 +1,19 @@
+{
+  "reviews": [
+    {
+      "name": "Ananya R.",
+      "quote": "The chocolate truffle cake was absolutely delicious and moist! Everyone loved it!",
+      "stars": 4.5
+    },
+    {
+      "name": "Rahul M.",
+      "quote": "Excellent customer service and beautifully crafted wedding cake. Highly recommended!",
+      "stars": 5
+    },
+    {
+      "name": "Meera S.",
+      "quote": "Loved the variety and flavors! The red velvet cupcake was divine.",
+      "stars": 3
+    }
+  ]
+}

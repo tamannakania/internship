@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question":"What types of cakes do you offer?",
+      "answer": "We offer a variety of cakes including wedding cakes, birthday cakes, cupcakes, and custom-designed cakes made with fresh ingredients."
+    },
+    {
+      "id": 2,
+      "question":"How can I place an order?",
+      "answer": "You can place an order through our website by selecting your favorite cake and following the checkout process, or by visiting our store in person."
+    },
+    {
+      "id": 3,
+      "question":"Do you provide cake delivery?",
+      "answer": "Yes, we offer delivery within the city limits. Delivery charges may apply depending on your location."
+    },
+    {
+      "id": 4,
+      "question":"Can I customize my cake design?",
+      "answer": "Absolutely! We offer custom cake designs based on your preferences, themes, and dietary needs. Contact us for special requests."
+    },
+    {
+      "id": 5,
+      "question":"What is your cancellation or refund policy?",
+      "answer": "Orders can be canceled or modified up to 48 hours before the scheduled delivery or pickup. Refunds are subject to our terms and conditions."
+    },
+    {
+      "id": 6,
+      "question":"Are your cakes made with organic ingredients?",
+      "answer": "We strive to use fresh and high-quality ingredients. Some of our cakes feature organic and locally sourced ingredients. Please check individual product details."
+    },
+    {
+      "id": 7,
+      "question":"Do you offer cakes for special dietary requirements?",
+      "answer": "Yes, we have options for gluten-free, vegan, and sugar-free cakes. Please specify your dietary needs when placing an order."
+    },
+    {
+      "id": 8,
+      "question":"How far in advance should I place my order?",
+      "answer": "We recommend placing your order at least 3-5 days in advance for regular cakes and 7-10 days for custom or wedding cakes."
+    },
+    {
+      "id": 9,
+      "question":"Can I pick up my order from the store?",
+      "answer": "Yes, you can choose the pickup option during checkout and collect your cake from our store at the scheduled time."
+    },
+    {
+      "id": 10,
+      "question":"What payment methods do you accept?",
+      "answer": "We accept cash, credit/debit cards, and online payments through our website."
+    }
+  ]
+}

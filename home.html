@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Sweet Delights</title>
+
+  <link rel="icon" href="images/logo.png" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    /* ================= BASE ================= */
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(to bottom, #fffaf7, #fff1eb);
+      color: #333;
+    }
+
+    /* ================= NAVBAR ================= */
+    .navbar {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(8px);
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      color: #e63946;
+      font-size: 1.4rem;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      margin: 0 8px;
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 0;
+      height: 2px;
+      background: #e63946;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    /* ================= HERO ================= */
+    #banner {
+      min-height: 85vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(
+          rgba(230, 57, 70, 0.75),
+          rgba(255, 183, 178, 0.75)
+        ),
+        url("images/banner.jpg") center/cover no-repeat;
+      color: white;
+    }
+
+    #bannerheading {
+      font-size: 3.6rem;
+      font-weight: 700;
+      animation: fadeDown 1s ease;
+    }
+
+    #bannersub {
+      font-size: 1.3rem;
+      margin-top: 15px;
+      animation: fadeUp 1.2s ease;
+    }
+
+    /* ================= SECTIONS ================= */
+    .section-title {
+      font-weight: 700;
+      color: #e63946;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /* ================= HIGHLIGHTS ================= */
+    .highlights {
+      padding: 90px 0;
+      background: #fff;
+    }
+
+    #highlightlist li {
+      background: #fffaf7;
+      border-radius: 15px;
+      padding: 18px 25px;
+      margin: 15px auto;
+      max-width: 600px;
+      font-size: 1.05rem;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+      transition: all 0.35s ease;
+    }
+
+    #highlightlist li i {
+      color: #e63946;
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+
+    #highlightlist li:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 25px 45px rgba(0,0,0,0.15);
+    }
+
+    /* ================= PRODUCTS ================= */
+    #featuredproducts {
+      padding: 100px 0;
+      background: linear-gradient(to bottom, #fff1eb, #fffaf7);
+    }
+
+    .product-card {
+      position: relative;
+      border-radius: 22px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+      transition: transform 0.4s ease;
+    }
+
+    .product-card img {
+      height: 260px;
+      width: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .product-card:hover img {
+      transform: scale(1.12);
+    }
+
+    .product-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        rgba(230,57,70,0.9),
+        rgba(230,57,70,0.85)
+      );
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: 0.4s ease;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .product-card:hover .product-overlay {
+      opacity: 1;
+    }
+
+    .product-overlay h5 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .product-overlay p {
+      font-size: 0.95rem;
+    }
+
+    .product-overlay button {
+      margin-top: 15px;
+      background: white;
+      color: #e63946;
+      border: none;
+      padding: 10px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .product-overlay button:hover {
+      transform: scale(1.1);
+    }
+
+    /* ================= BUTTONS ================= */
+    .btn-danger {
+      background: linear-gradient(135deg, #e63946, #ff6b6b);
+      border: none;
+    }
+
+    .btn-danger:hover {
+      transform: scale(1.05);
+    }
+
+    /* ================= ANIMATIONS ================= */
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      #bannerheading {
+        font-size: 2.4rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="home.html">
+      <img src="images/logo.png" height="40" class="me-2" />
+      Sweet Delights
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="cake.html">Explore Cakes</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+
+      <div>
+        <a href="cart.html" class="btn btn-outline-secondary btn-sm me-2">
+          <i class="bi bi-cart"></i> Cart
+        </a>
+        <a href="login.html" class="btn btn-danger btn-sm">
+          <i class="bi bi-person"></i> Login / Signup
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="banner">
+  <div class="container">
+    <h1 id="bannerheading">Welcome to Sweet Delights</h1>
+    <p id="bannersub"></p>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section class="highlights">
+  <div class="container">
+    <h2 class="section-title">Why Choose Us?</h2>
+    <ul id="highlightlist" class="list-unstyled text-center"></ul>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="featuredproducts">
+  <div class="container">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="row g-4" id="productc"></div>
+  </div>
+</section>
+
+<!-- JSON SCRIPT (UNCHANGED IMAGES) -->
+<script>
+$(document).ready(function () {
+  $.getJSON("home.json", function (data) {
+
+    $("#bannersub").text(data.banner.subheading);
+
+    $.each(data.highlights, function (i, item) {
+      $("#highlightlist").append(
+        `<li><i class="bi bi-patch-check-fill"></i>${item}</li>`
+      );
+    });
+
+    $.each(data.featuredProducts, function (i, product) {
+      $("#productc").append(`
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="${product.image}" alt="${product.name}">
+            <div class="product-overlay">
+              <h5>${product.name}</h5>
+              <p>${product.description}</p>
+              <button>View Details</button>
+            </div>
+          </div>
+        </div>
+      `);
+    });
+
+  });
+});
+</script>
+
+</body>
+</html>
